@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+
+    transform: translateX(100px) rotateZ(45deg);
+}
+
+#box1{
+    background-color: hsl(120, 100%, 70%);
+
+    /* transform: translate():
+        transform: rotateX() , Y() , Z()
+        transform: scaleX() , Y()
+        transform: skewX() , Y() */
+}
+
+#box2{
+    background-color: hsl(0, 100%, 70%);
+}
+
+#box3{
+    background-color: hsl(240, 100%, 70%);
+}
